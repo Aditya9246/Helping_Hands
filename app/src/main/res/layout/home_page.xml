@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="122dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="#2195F2"
+        android:text="Log In"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/passwordSignUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="536dp"
+        android:text="Password:"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="271dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volunteer_logo_blue" />
+
+    <EditText
+        android:id="@+id/usernameEntry"
+        android:layout_width="237dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="408dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Enter E-mail"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#000000"
+        android:textColorHighlight="#A7A6A8"
+        android:textColorHint="#A7A6A8"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="276dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="HELPING HANDS"
+        android:textColor="#2196F3"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="433dp"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="#2195F2"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="752dp"
+        android:text="New User?"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordEntry"
+        android:layout_width="237dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="508dp"
+        android:clickable="false"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#A7A6A8"
+        android:textColorHint="#A8A7A9"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/madeByText"
+        android:layout_width="301dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="808dp"
+        android:contentDescription="madeByMe"
+        android:text="©Copyright 2024 - Made by Aditya Gajula"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelSignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="#FF0000"
+        android:clickable="false"
+        android:text="Cancel"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/studentRadioButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="608dp"
+        android:buttonTint="#000000"
+        android:checked="true"
+        android:clickable="false"
+        android:text="Volunteer"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="620dp"
+        android:text="I am a(n) : "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/adminRadioButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="608dp"
+        android:buttonTint="#000000"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Organizer"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/zipCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="684dp"
+        android:text="Zip Code:"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/zipCodeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="676dp"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="Enter your zip code"
+        android:textColorHint="#A7A6A8"
+        android:inputType="number"
+        android:text=""
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

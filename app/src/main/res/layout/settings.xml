@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:id="@+id/eventsButton3"
+        android:layout_width="90dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="775dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="events"
+        android:scaleType="fitCenter"
+        android:elevation="15dp"
+        android:src="@drawable/baseline_event_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/profileButton3"
+        android:layout_width="80dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="775dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="profile"
+        android:scaleType="fitCenter"
+        android:elevation="15dp"
+        android:src="@drawable/baseline_person_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/settingsButton3"
+        android:layout_width="102dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="775dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="settings"
+        android:scaleType="fitCenter"
+        android:elevation="15dp"
+        android:src="@drawable/baseline_settings_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Settings:"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateUsernameButton"
+        android:layout_width="242dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="#2195F2"
+        android:text="Update Email"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/updateUsernameField"
+        android:layout_width="224dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="356dp"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="Enter New Username"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirmButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="332dp"
+        android:backgroundTint="#2195F2"
+        android:clickable="false"
+        android:text="Confirm"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="392dp"
+        android:backgroundTint="#FF0000"
+        android:clickable="false"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updatePasswordButton"
+        android:layout_width="242dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="464dp"
+        android:backgroundTint="#2195F2"
+        android:text="Update Password"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirmButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="512dp"
+        android:backgroundTint="#2195F2"
+        android:clickable="false"
+        android:text="Confirm"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="572dp"
+        android:backgroundTint="#FF0000"
+        android:clickable="false"
+        android:text="Cancel"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/updatePasswordField"
+        android:layout_width="224dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="540dp"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="Enter New Password"
+        android:inputType="textPassword"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="156dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="648dp"
+        android:backgroundTint="#FF0000"
+        android:text="Sign Out"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/user_icon" />
+
+    <ImageView
+        android:id="@+id/solidBar"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="770dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/bottom_bar_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
